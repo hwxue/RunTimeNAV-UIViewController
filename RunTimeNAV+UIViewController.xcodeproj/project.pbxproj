@@ -15,6 +15,7 @@
 		3B480B0D21AE758100AABCE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B480B0C21AE758100AABCE1 /* main.m */; };
 		3B480B1721AE758100AABCE1 /* RunTimeNAV_UIViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B480B1621AE758100AABCE1 /* RunTimeNAV_UIViewControllerTests.m */; };
 		3B480B2221AE758100AABCE1 /* RunTimeNAV_UIViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B480B2121AE758100AABCE1 /* RunTimeNAV_UIViewControllerUITests.m */; };
+		3B480B3121AE759200AABCE1 /* UIViewController+HWRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B480B2F21AE759000AABCE1 /* UIViewController+HWRuntime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3B480B1D21AE758100AABCE1 /* RunTimeNAV+UIViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RunTimeNAV+UIViewControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B480B2121AE758100AABCE1 /* RunTimeNAV_UIViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeNAV_UIViewControllerUITests.m; sourceTree = "<group>"; };
 		3B480B2321AE758100AABCE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B480B2F21AE759000AABCE1 /* UIViewController+HWRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HWRuntime.m"; sourceTree = "<group>"; };
+		3B480B3021AE759200AABCE1 /* UIViewController+HWRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HWRuntime.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		3B480AFC21AE757800AABCE1 /* RunTimeNAV+UIViewController */ = {
 			isa = PBXGroup;
 			children = (
+				3B480B3021AE759200AABCE1 /* UIViewController+HWRuntime.h */,
+				3B480B2F21AE759000AABCE1 /* UIViewController+HWRuntime.m */,
 				3B480AFD21AE757800AABCE1 /* AppDelegate.h */,
 				3B480AFE21AE757800AABCE1 /* AppDelegate.m */,
 				3B480B0021AE757800AABCE1 /* ViewController.h */,
@@ -264,6 +269,7 @@
 			files = (
 				3B480B0221AE757800AABCE1 /* ViewController.m in Sources */,
 				3B480B0D21AE758100AABCE1 /* main.m in Sources */,
+				3B480B3121AE759200AABCE1 /* UIViewController+HWRuntime.m in Sources */,
 				3B480AFF21AE757800AABCE1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
